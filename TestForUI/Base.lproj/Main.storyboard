@@ -88,6 +88,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="small"/>
                                 <connections>
+                                    <action selector="stopBt1:" destination="WEb-XO-pcx" eventType="touchUpInside" id="b4R-Yq-8we"/>
+                                    <action selector="stopBt1:" destination="04e-fo-Ywa" eventType="touchUpInside" id="enf-H4-ZMa"/>
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="sequeOne" id="ljP-p4-DNr"/>
                                 </connections>
                             </button>
@@ -95,12 +97,8 @@
                                 <rect key="frame" x="16" y="156" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="play-button"/>
-                                <connections>
-                                    <action selector="playBt:" destination="yfs-Kd-lQb" eventType="touchUpInside" id="UvA-BZ-eTb"/>
-                                    <action selector="playBt:" destination="WEb-XO-pcx" eventType="touchUpInside" id="ruo-XO-HZN"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyK-qK-7OD" userLabel="Pause">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyK-qK-7OD">
                                 <rect key="frame" x="17" y="210" width="45" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="pause-button"/>
@@ -120,14 +118,14 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ko0-Fg-qK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="yfs-Kd-lQb" userLabel="Exit" sceneMemberID="exit"/>
+                <exit id="04e-fo-Ywa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="698.39999999999998" y="45.42728635682159"/>
         </scene>
-        <!--View Controller-->
+        <!--Lst View Controller-->
         <scene sceneID="Hy5-kw-NGh">
             <objects>
-                <viewController id="0GN-1K-R4X" sceneMemberID="viewController">
+                <viewController id="0GN-1K-R4X" customClass="LstViewController" customModule="TestForUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RJr-VQ-1pb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,10 +215,20 @@
                                 <rect key="frame" x="96" y="606" width="153" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaf-Ue-4Qs">
+                                <rect key="frame" x="45" y="143" width="97" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Pn1-gB-7lq"/>
                     </view>
+                    <connections>
+                        <outlet property="amount" destination="qaf-Ue-4Qs" id="tgm-Pd-fUK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f2q-C8-ukE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -258,6 +266,6 @@
         <image name="watermelon" width="114" height="86"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ljP-p4-DNr"/>
+        <segue reference="6Qh-pp-HZb"/>
     </inferredMetricsTieBreakers>
 </document>

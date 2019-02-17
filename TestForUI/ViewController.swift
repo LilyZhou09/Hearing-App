@@ -7,11 +7,10 @@
 //
 
 import UIKit
-import AVFoundation
-import SwiftySound
+
+var resultHz = "80"
 
 class ViewController: UIViewController {
-
     @IBAction func action(_ sender: AnyObject){
         performSegue(withIdentifier: "segueOne", sender: self)
     }
@@ -19,12 +18,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    @IBAction func playBt(_ sender: Any) {
-        Sound.play(file: "everyone.wav")
+    @IBAction func stopBt1(_ sender: Any) {
+        resultHz = "1024"
     }
-    
     
 }
 
