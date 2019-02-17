@@ -52,11 +52,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Signal frequency: 20" translatesAutoresizingMaskIntoConstraints="NO" id="j3E-dk-xik">
-                                <rect key="frame" x="16" y="126" width="181" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graph" translatesAutoresizingMaskIntoConstraints="NO" id="Pt5-uH-IGg">
-                                <rect key="frame" x="-109" y="117" width="592" height="252"/>
+                                <rect key="frame" x="4" y="106" width="158" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Can you hear this fr" translatesAutoresizingMaskIntoConstraints="NO" id="PaP-76-fGZ">
@@ -95,12 +91,44 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="sequeOne" id="ljP-p4-DNr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeO-gZ-uCs">
+                                <rect key="frame" x="16" y="156" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="play-button"/>
+                                <connections>
+                                    <action selector="Play:" destination="VAh-RW-o4p" eventType="touchUpInside" id="9DR-2M-e3i"/>
+                                    <action selector="PlayBt:" destination="VAh-RW-o4p" eventType="touchUpInside" id="c0n-aS-V3p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyK-qK-7OD">
+                                <rect key="frame" x="17" y="210" width="45" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="pause-button"/>
+                                <connections>
+                                    <action selector="Pause:" destination="VAh-RW-o4p" eventType="touchUpInside" id="Xxh-PM-Ucc"/>
+                                    <action selector="PauseBt:" destination="VAh-RW-o4p" eventType="touchUpInside" id="9FL-Fr-tQO"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record-progress-bar" translatesAutoresizingMaskIntoConstraints="NO" id="KEQ-GB-J9M">
+                                <rect key="frame" x="92" y="165" width="262" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33K-VA-KVO">
+                                <rect key="frame" x="217" y="136" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="replay-tag"/>
+                                <connections>
+                                    <action selector="Replay:" destination="VAh-RW-o4p" eventType="touchUpInside" id="ki8-js-6JL"/>
+                                    <action selector="ReplayBt:" destination="VAh-RW-o4p" eventType="touchUpInside" id="vSU-u6-kRT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BWh-Mi-Qtd"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ko0-Fg-qK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="VAh-RW-o4p" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="698.39999999999998" y="45.42728635682159"/>
         </scene>
@@ -227,7 +255,10 @@
         <image name="avocado-1" width="500" height="421"/>
         <image name="basic stats" width="500" height="465"/>
         <image name="food" width="500" height="448"/>
-        <image name="graph" width="670" height="448"/>
+        <image name="pause-button" width="500" height="507"/>
+        <image name="play-button" width="148" height="150"/>
+        <image name="record-progress-bar" width="500" height="96"/>
+        <image name="replay-tag" width="500" height="99"/>
         <image name="selected-1" width="97" height="60"/>
         <image name="small" width="192" height="70"/>
         <image name="technology" width="500" height="483"/>
