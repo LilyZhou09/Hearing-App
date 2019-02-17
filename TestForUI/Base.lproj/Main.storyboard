@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestForUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="MyView" customClass="MyView" customModule="TestForUI" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="vPx-gc-06h">
+                                <rect key="frame" x="158" y="225" width="59" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgm-eR-f2E">
+                                <rect key="frame" x="133" y="383" width="91" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="selected-1"/>
+                                <connections>
+                                    <segue destination="WEb-XO-pcx" kind="show" identifier="segueOne" id="AXr-y5-ArW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="50.824587706146929"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="caX-XE-TDq">
+            <objects>
+                <viewController id="WEb-XO-pcx" customClass="ViewController" customModule="TestForUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iKT-zc-9iD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="4D3-TD-k4H">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Signal frequency: 20" translatesAutoresizingMaskIntoConstraints="NO" id="j3E-dk-xik">
+                                <rect key="frame" x="4" y="106" width="158" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Can you hear this fr" translatesAutoresizingMaskIntoConstraints="NO" id="PaP-76-fGZ">
+                                <rect key="frame" x="45" y="431" width="285" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yes, I can" translatesAutoresizingMaskIntoConstraints="NO" id="Qgx-Wl-SJi">
+                                <rect key="frame" x="17" y="558" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="No, I can’t" translatesAutoresizingMaskIntoConstraints="NO" id="6yg-WK-rpR">
+                                <rect key="frame" x="252" y="558" width="92" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Testing audio is pla" translatesAutoresizingMaskIntoConstraints="NO" id="D3F-vc-wen">
+                                <rect key="frame" x="30" y="51" width="314" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watermelon" translatesAutoresizingMaskIntoConstraints="NO" id="Dbw-ut-ZHT">
+                                <rect key="frame" x="142" y="478" width="91" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxh-M2-f30">
+                                <rect key="frame" x="4" y="587" width="123" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="active"/>
+                                <connections>
+                                    <segue destination="0GN-1K-R4X" kind="show" identifier="segueOne" id="5zn-F4-Rn5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBG-Xg-yMo">
+                                <rect key="frame" x="257" y="589" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="small"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="sequeOne" id="ljP-p4-DNr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeO-gZ-uCs">
+                                <rect key="frame" x="16" y="156" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="play-button"/>
+                                <connections>
+                                    <action selector="playBt:" destination="yfs-Kd-lQb" eventType="touchUpInside" id="UvA-BZ-eTb"/>
+                                    <action selector="playBt:" destination="WEb-XO-pcx" eventType="touchUpInside" id="ruo-XO-HZN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyK-qK-7OD" userLabel="Pause">
+                                <rect key="frame" x="17" y="210" width="45" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="pause-button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record-progress-bar" translatesAutoresizingMaskIntoConstraints="NO" id="KEQ-GB-J9M">
+                                <rect key="frame" x="92" y="165" width="262" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33K-VA-KVO">
+                                <rect key="frame" x="217" y="156" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="replay-tag"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BWh-Mi-Qtd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ko0-Fg-qK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="yfs-Kd-lQb" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="698.39999999999998" y="45.42728635682159"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hy5-kw-NGh">
+            <objects>
+                <viewController id="0GN-1K-R4X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RJr-VQ-1pb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="Tli-by-Plv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="technology" translatesAutoresizingMaskIntoConstraints="NO" id="ffo-1R-ILG">
+                                <rect key="frame" x="10" y="10" width="43" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Use earplugs around" translatesAutoresizingMaskIntoConstraints="NO" id="vgF-8i-jHm">
+                                <rect key="frame" x="61" y="10" width="207" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="technology" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-Rg-344">
+                                <rect key="frame" x="10" y="10" width="43" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Use earplugs around" translatesAutoresizingMaskIntoConstraints="NO" id="gP6-Rk-HU1">
+                                <rect key="frame" x="61" y="10" width="207" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="achievment" translatesAutoresizingMaskIntoConstraints="NO" id="zyv-Pf-d3B">
+                                <rect key="frame" x="49" y="609" width="34" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Congratulations!" translatesAutoresizingMaskIntoConstraints="NO" id="xEr-Fo-8qA">
+                                <rect key="frame" x="45" y="96" width="274" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="achievment" translatesAutoresizingMaskIntoConstraints="NO" id="9Dn-Zq-2YG">
+                                <rect key="frame" x="158" y="123" width="59" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flat Blue" translatesAutoresizingMaskIntoConstraints="NO" id="aAU-ju-NQm">
+                                <rect key="frame" x="0.0" y="179" width="375" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Your hearing age is" translatesAutoresizingMaskIntoConstraints="NO" id="rj3-QK-bSk">
+                                <rect key="frame" x="30" y="184" width="260" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avocado-1" translatesAutoresizingMaskIntoConstraints="NO" id="puj-UV-o3W">
+                                <rect key="frame" x="165" y="290" width="75" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="users online" translatesAutoresizingMaskIntoConstraints="NO" id="eam-On-k1f">
+                                <rect key="frame" x="201" y="437" width="144" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basic stats" translatesAutoresizingMaskIntoConstraints="NO" id="Rho-qR-ckv">
+                                <rect key="frame" x="8" y="355" width="316" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="technology" translatesAutoresizingMaskIntoConstraints="NO" id="vfG-fE-pBH">
+                                <rect key="frame" x="45" y="554" width="43" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Protect your hearing" translatesAutoresizingMaskIntoConstraints="NO" id="uMR-2M-KUI">
+                                <rect key="frame" x="45" y="527" width="184" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Use earplugs around" translatesAutoresizingMaskIntoConstraints="NO" id="oJz-3e-hez">
+                                <rect key="frame" x="96" y="554" width="207" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="Wfc-z4-iOF">
+                                <rect key="frame" x="45" y="581" width="43" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Take medications onl" translatesAutoresizingMaskIntoConstraints="NO" id="o8w-mk-eGx">
+                                <rect key="frame" x="96" y="581" width="207" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUY-Hy-4iY">
+                                <rect key="frame" x="151" y="635" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34762371650000001" green="1" blue="0.6024877059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Do It Again"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="6Qh-pp-HZb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Turn the volume down" translatesAutoresizingMaskIntoConstraints="NO" id="WEQ-xs-JAm">
+                                <rect key="frame" x="96" y="606" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pn1-gB-7lq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2q-C8-ukE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1356" y="45.42728635682159"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Can you hear this fr" width="508" height="38"/>
+        <image name="Congratulations!" width="500" height="73"/>
+        <image name="Flat Blue" width="500" height="100"/>
+        <image name="No, I can’t" width="136" height="28"/>
+        <image name="Protect your hearing" width="500" height="42"/>
+        <image name="Rectangle" width="750" height="1334"/>
+        <image name="Signal frequency: 20" width="360" height="34"/>
+        <image name="Take medications onl" width="500" height="34"/>
+        <image name="Testing audio is pla" width="592" height="56"/>
+        <image name="Turn the volume down" width="500" height="43"/>
+        <image name="Use earplugs around" width="500" height="35"/>
+        <image name="Yes, I can" width="132" height="28"/>
+        <image name="Your hearing age is" width="269" height="36"/>
+        <image name="achievment" width="44" height="66"/>
+        <image name="active" width="272" height="114"/>
+        <image name="avocado" width="63" height="53"/>
+        <image name="avocado-1" width="500" height="421"/>
+        <image name="basic stats" width="500" height="465"/>
+        <image name="food" width="500" height="448"/>
+        <image name="pause-button" width="500" height="507"/>
+        <image name="play-button" width="148" height="150"/>
+        <image name="record-progress-bar" width="500" height="96"/>
+        <image name="replay-tag" width="500" height="99"/>
+        <image name="selected-1" width="97" height="60"/>
+        <image name="small" width="192" height="70"/>
+        <image name="technology" width="500" height="483"/>
+        <image name="users online" width="500" height="400"/>
+        <image name="watermelon" width="114" height="86"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ljP-p4-DNr"/>
+    </inferredMetricsTieBreakers>
+</document>
