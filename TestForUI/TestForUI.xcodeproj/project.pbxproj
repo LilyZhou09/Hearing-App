@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9633BAB22218D59600B7E863 /* 18000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAA92218D59600B7E863 /* 18000hz.wav */; };
-		9633BAB32218D59600B7E863 /* 16000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAAA2218D59600B7E863 /* 16000hz.wav */; };
-		9633BAB42218D59600B7E863 /* 10000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAAB2218D59600B7E863 /* 10000hz.wav */; };
-		9633BAB52218D59600B7E863 /* 19000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAAC2218D59600B7E863 /* 19000hz.wav */; };
-		9633BAB62218D59600B7E863 /* 17000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAAD2218D59600B7E863 /* 17000hz.wav */; };
-		9633BAB72218D59600B7E863 /* 15000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAAE2218D59600B7E863 /* 15000hz.wav */; };
-		9633BAB82218D59600B7E863 /* 8000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAAF2218D59600B7E863 /* 8000hz.wav */; };
-		9633BAB92218D59600B7E863 /* 20000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAB02218D59600B7E863 /* 20000hz.wav */; };
-		9633BABA2218D59600B7E863 /* 12000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9633BAB12218D59600B7E863 /* 12000hz.wav */; };
-		9633BABC2218D88F00B7E863 /* 8000hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9633BABB2218D88F00B7E863 /* 8000hz.mp3 */; };
-		9633BAC02218DB2800B7E863 /* How.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9633BABF2218DB2800B7E863 /* How.mp3 */; };
 		96B3BEF22218908C00ECCB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B3BEF12218908C00ECCB67 /* AppDelegate.swift */; };
 		96B3BEF42218908C00ECCB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B3BEF32218908C00ECCB67 /* ViewController.swift */; };
 		96B3BEF72218908C00ECCB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B3BEF52218908C00ECCB67 /* Main.storyboard */; };
@@ -28,17 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9633BAA92218D59600B7E863 /* 18000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 18000hz.wav; sourceTree = "<group>"; };
-		9633BAAA2218D59600B7E863 /* 16000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 16000hz.wav; sourceTree = "<group>"; };
-		9633BAAB2218D59600B7E863 /* 10000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10000hz.wav; sourceTree = "<group>"; };
-		9633BAAC2218D59600B7E863 /* 19000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 19000hz.wav; sourceTree = "<group>"; };
-		9633BAAD2218D59600B7E863 /* 17000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 17000hz.wav; sourceTree = "<group>"; };
-		9633BAAE2218D59600B7E863 /* 15000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 15000hz.wav; sourceTree = "<group>"; };
-		9633BAAF2218D59600B7E863 /* 8000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8000hz.wav; sourceTree = "<group>"; };
-		9633BAB02218D59600B7E863 /* 20000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 20000hz.wav; sourceTree = "<group>"; };
-		9633BAB12218D59600B7E863 /* 12000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12000hz.wav; sourceTree = "<group>"; };
-		9633BABB2218D88F00B7E863 /* 8000hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8000hz.mp3; sourceTree = "<group>"; };
-		9633BABF2218DB2800B7E863 /* How.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = How.mp3; sourceTree = "<group>"; };
 		96B3BEEE2218908C00ECCB67 /* TestForUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B3BEF12218908C00ECCB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96B3BEF32218908C00ECCB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,24 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9633BAA82218D52900B7E863 /* MusicGroup */ = {
-			isa = PBXGroup;
-			children = (
-				9633BABB2218D88F00B7E863 /* 8000hz.mp3 */,
-				9633BAAF2218D59600B7E863 /* 8000hz.wav */,
-				9633BAAB2218D59600B7E863 /* 10000hz.wav */,
-				9633BAB12218D59600B7E863 /* 12000hz.wav */,
-				9633BAAE2218D59600B7E863 /* 15000hz.wav */,
-				9633BAAA2218D59600B7E863 /* 16000hz.wav */,
-				9633BABF2218DB2800B7E863 /* How.mp3 */,
-				9633BAAD2218D59600B7E863 /* 17000hz.wav */,
-				9633BAA92218D59600B7E863 /* 18000hz.wav */,
-				9633BAAC2218D59600B7E863 /* 19000hz.wav */,
-				9633BAB02218D59600B7E863 /* 20000hz.wav */,
-			);
-			path = MusicGroup;
-			sourceTree = "<group>";
-		};
 		96B3BEE52218908C00ECCB67 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +60,6 @@
 		96B3BEF02218908C00ECCB67 /* TestForUI */ = {
 			isa = PBXGroup;
 			children = (
-				9633BAA82218D52900B7E863 /* MusicGroup */,
 				96B3BEF12218908C00ECCB67 /* AppDelegate.swift */,
 				96B3BEF32218908C00ECCB67 /* ViewController.swift */,
 				96B3BEF52218908C00ECCB67 /* Main.storyboard */,
@@ -169,19 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9633BAB32218D59600B7E863 /* 16000hz.wav in Resources */,
-				9633BAB62218D59600B7E863 /* 17000hz.wav in Resources */,
 				96B3BEFC2218908E00ECCB67 /* LaunchScreen.storyboard in Resources */,
-				9633BAB42218D59600B7E863 /* 10000hz.wav in Resources */,
-				9633BABA2218D59600B7E863 /* 12000hz.wav in Resources */,
-				9633BAB52218D59600B7E863 /* 19000hz.wav in Resources */,
-				9633BAB92218D59600B7E863 /* 20000hz.wav in Resources */,
-				9633BAB72218D59600B7E863 /* 15000hz.wav in Resources */,
-				9633BAB82218D59600B7E863 /* 8000hz.wav in Resources */,
 				96B3BEF92218908E00ECCB67 /* Assets.xcassets in Resources */,
-				9633BABC2218D88F00B7E863 /* 8000hz.mp3 in Resources */,
-				9633BAB22218D59600B7E863 /* 18000hz.wav in Resources */,
-				9633BAC02218DB2800B7E863 /* How.mp3 in Resources */,
 				96B3BEF72218908C00ECCB67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
